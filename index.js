@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = (belanjaan) => {
   let dataBelanjaan = [];
   belanjaan.map(data => {
-    dataBelanjaan.push(`${data.nama} * ${data.kuantitas}`);
+    dataBelanjaan.push("- ${data.nama} x ${data.kuantitas}");
   });
   return dataBelanjaan;
 
